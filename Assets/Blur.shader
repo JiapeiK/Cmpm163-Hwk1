@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _Steps ("Steps", Float) = 3
+        _Steps ("Blur", Float) = 3
         
     }
     SubShader

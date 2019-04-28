@@ -67,14 +67,17 @@
     <Compile Include="Assets\upanddown.cs" />
     <None Include="Assets\Procedural.shader" />
     <None Include="Assets\Phong.shader" />
+    <None Include="Assets\PhongTextureWithTwoTextures.shader" />
     <None Include="Assets\Blur.shader" />
+    <None Include="Assets\PhongTexture.shader" />
     <None Include="Assets\VertexRotation.shader" />
     <None Include="Assets\Twist.shader" />
     <None Include="Assets\SolidColor.shader" />
+    <None Include="Assets\Imageproc.shader" />
     <None Include="Assets\Toon.shader" />
-    <None Include="Assets\Texture.shader" />
     <None Include="Assets\Edge.shader" />
     <None Include="Assets\MouseInput.shader" />
+    <None Include="Assets\Texture 1.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/katek/Documents/Hwk1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

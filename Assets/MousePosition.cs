@@ -11,16 +11,16 @@ public class MousePosition : MonoBehaviour
     {
         render = GetComponent<Renderer>();
 
-        render.material.shader = Shader.Find("Custom/MouseInput");
+        render.material.shader = Shader.Find("Custom/Imageproc");
     }
 
     // Update is called once per frame
     void Update()
     {
-        render.material.SetFloat("_mX", Input.mousePosition.x);
-        render.material.SetFloat("_mY", Input.mousePosition.y);
+        float total = (Input.mousePosition.x - Input.mousePosition.y)/100;
 
-
+        render.material.SetFloat("_Mix", total);
+ 
         //Debug.Log(Input.mousePosition);
     }
 }
