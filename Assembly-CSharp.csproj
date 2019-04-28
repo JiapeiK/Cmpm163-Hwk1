@@ -62,22 +62,28 @@
   <ItemGroup>
     <Compile Include="Assets\MousePosition.cs" />
     <Compile Include="Assets\move.cs" />
+    <Compile Include="Assets\PingPong_CellularAutomata.cs" />
+    <Compile Include="Assets\PingPong_ReactionDiffusion.cs" />
     <Compile Include="Assets\rotatetranslate.cs" />
     <Compile Include="Assets\Shininess.cs" />
     <Compile Include="Assets\upanddown.cs" />
-    <None Include="Assets\Procedural.shader" />
-    <None Include="Assets\Phong.shader" />
-    <None Include="Assets\PhongTextureWithTwoTextures.shader" />
-    <None Include="Assets\Blur.shader" />
-    <None Include="Assets\PhongTexture.shader" />
-    <None Include="Assets\VertexRotation.shader" />
-    <None Include="Assets\Twist.shader" />
-    <None Include="Assets\SolidColor.shader" />
-    <None Include="Assets\Imageproc.shader" />
-    <None Include="Assets\Toon.shader" />
-    <None Include="Assets\Edge.shader" />
-    <None Include="Assets\MouseInput.shader" />
-    <None Include="Assets\Texture 1.shader" />
+    <None Include="Assets\Shader\Procedural.shader" />
+    <None Include="Assets\Shader\Phong.shader" />
+    <None Include="Assets\RenderToTexture_CA.shader" />
+    <None Include="Assets\RenderToTexture_RD.shader" />
+    <None Include="Assets\Shader\PhongTextureWithTwoTextures.shader" />
+    <None Include="Assets\Shader\Blur.shader" />
+    <None Include="Assets\Shader\PhongTexture.shader" />
+    <None Include="Assets\Shader\VertexRotation.shader" />
+    <None Include="Assets\Shader\Twist.shader" />
+    <None Include="Assets\OutputTexture.shader" />
+    <None Include="Assets\Shader\SolidColor.shader" />
+    <None Include="Assets\Shader\Imageproc.shader" />
+    <None Include="Assets\OutputTexture_RD.shader" />
+    <None Include="Assets\Shader\Toon.shader" />
+    <None Include="Assets\Shader\Edge.shader" />
+    <None Include="Assets\Shader\MouseInput.shader" />
+    <None Include="Assets\Shader\Texture 1.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/katek/Documents/Hwk1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
