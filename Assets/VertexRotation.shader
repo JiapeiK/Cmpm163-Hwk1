@@ -40,21 +40,24 @@ Shader "Custom/VertexRotation"
                 
                 float s = -sin(theta);
                 float c = cos(theta);
-                return float3x3(1, 0, 0, 0, c, -s, 0, s, c);
+				//return float3x3(c, -s, 0, s, c, 0, 0, 0, 1);
+				return float3x3(1, 0, 0, 0, c, -s, 0, s, c);
             }
             
             float3x3 getRotationMatrixY (float theta) {
                 
                 float s = -sin(theta);
                 float c = cos(theta);
-                return float3x3(c, 0, s, 0, 1, 0, -s, 0, c) ;
+				return float3x3(c, -s, 0, s, c, 0, 0, 0, 1);
+				//return float3x3(c, 0, s, 0, 1, 0, -s, 0, c) ;
             }
             
             float3x3 getRotationMatrixZ (float theta) {
                 
                 float s = -sin(theta);
                 float c = cos(theta);
-                return float3x3(c, -s, 0, s, c, 0, 0, 0, 1);
+				return float3x3(1, 0, 0, 0, c, -s, 0, s, c);
+                //return float3x3(c, -s, 0, s, c, 0, 0, 0, 1);
             }
             
             
